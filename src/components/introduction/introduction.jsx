@@ -7,11 +7,11 @@ class IntroductionComponent extends Component {
     render() {
         return (
           <div className="introduction">
-            <Avatar src="avatar.jpg" size={150}/>
+            <Avatar src="avatar.png" size={200}/>
             <p className="introduction-text">
-              Loves Javascript, cats and müsli.
-              Professional Cake-Eater. Defender of peace.
-              Junior IT Consultant, currently living in Stuttgart, Germany.
+              Loves Machine Learning and Human Computer Interaction
+              <br/>Professional Procastinator.<br/>
+              Junior Undergraduate, Indian Institute of Technology Delhi, India.
             </p>
           </div>
         );

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './agile.css';
+import { FaPizzaSlice } from 'react-icons/fa';
 
 
 class AgileComponent extends Component {
@@ -7,15 +8,15 @@ class AgileComponent extends Component {
     render() {
         return (
           <div className="agile">
-              <p className="headline">Agile development</p>
-              <p className="text-justify">
-                Excellent results can be achieved through agility.
-                Therefore I try to empower the agile concept in any aspects of life.
-                I believe that brilliant software can only be achieved through constant feedback and an open mind.
-                Self-organization of teams triggers creativity.
-                <br /> <br />
-                Through working experience, I have become an expert on Scrum.
-                I have worked with JIRA, Confluence and classic tools like post-its.
+              <p className="headline" style={{fontSize:"16px"}}>Who Am I ?</p>
+              <p className="text-justify" style={{fontSize:"16px"}}>
+                Ambivert by personality, Extrovert inside my mind. 
+                I seek opotunities which will help me build myself. 
+                I love observig my surrounding so if you found me staring at you am just observing the changes in you and your surrounding.
+                <br /> <br/>
+                I love Pizzas  <FaPizzaSlice />
+                <br />
+                Bye!
               </p>
           </div>
         );

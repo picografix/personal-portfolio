@@ -4,5 +4,8 @@
 }
 
 .introduction-text {
+  font-family:"Poppins";
+  font-weight: semi-bold;
   margin-bottom: 0;
+  font-size: 20px;
 }

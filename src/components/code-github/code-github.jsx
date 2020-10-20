@@ -18,14 +18,14 @@ class CodeGithubComponent extends Component {
                 <Card>
                   <CardHeader
                     subtitle="Github Repository"
-                    title="salomonelli/personal-portfolio"
+                    title="Picografix/personal-portfolio"
                     avatar="github.png"
                   />
                 <CardText>
                         This application is made with React and Material UI. Check out the code on Github.
                     </CardText>
                     <CardActions>
-                        <FlatButton label="View on github" href="https://github.com/salomonelli/personal-portfolio" target="_blank"/>
+                        <FlatButton label="View on github" href="https://github.com/picografix/personal-portfolio" target="_blank"/>
                     </CardActions>
                 </Card>
             </div>

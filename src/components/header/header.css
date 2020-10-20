@@ -20,12 +20,14 @@
 }
 
 .header h6 {
+  font-size:18px;
   font-weight: 300;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .header h3 {
+  font-size:33px;
   text-transform: uppercase;
   letter-spacing: 9px;
 }

@@ -60,10 +60,10 @@ class TimelineComponent extends Component {
     render() {
         return (
             <div className="timeline">
-              <p className="headline">Working experience</p>
+              <p className="headline">Projects</p>
                 <div className="timeline-entry">
                   <Card>
-                      <CardHeader title="Technology Consulting Analyst" subtitle="Accenture"/>
+                      <CardHeader title="DSL 810: Data Driven Science" subtitle="Prof. Jay Dhariwal"actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
                           October	2016 - October 2017. Development of Microservices, UX-Consulting.
                           <br/><br/>
@@ -95,14 +95,14 @@ class TimelineComponent extends Component {
                 </div>
                   <div className="timeline-entry">
                     <Card expanded={this.state.expanded1} onExpandChange={this.handleExpandChange}>
-                        <CardHeader title="Software Developer" subtitle="Testo	SE	&	Co.	KGaA"
+                        <CardHeader title="Asynchronous Video Interviewing " subtitle="Computer Vision Project"
                           actAsExpander={true} showExpandableButton={true}/>
                         <CardText expandable={true}>
                             October	2016 - October 2017. Development of Microservices, UX-Consulting.
                             <br/><br/>
                               <div className="timeline-entries">
                                 <div className="timeline-entry-chip">
-                                  <Chip>Angular 2</Chip>
+                                  <Chip>Gauransh</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
                                   <Chip>Docker</Chip>
@@ -128,7 +128,7 @@ class TimelineComponent extends Component {
                   </div>
                   <div className="timeline-entry">
                   <Card expanded={this.state.expanded2} onExpandChange={this.handleExpandChange2}>
-                      <CardHeader title="Student" subtitle="Testo	SE	&	Co.	KGaA"
+                      <CardHeader title="iShare-IIT" subtitle="Web Development Project "
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
                           October 2013 - September 2016. Bachelor of Science (Business Engineering), process automation and management, web and software development. Thesis: Integration of CRM and marketing automation with Hybris E-Commerce.
@@ -161,7 +161,7 @@ class TimelineComponent extends Component {
                 </div>
                 <div className="timeline-entry">
                   <Card expanded={this.state.expanded3} onExpandChange={this.handleExpandChange3}>
-                      <CardHeader title="Trainee" subtitle="Testo	Instruments	(Shenzhen)	Co.	Ltd"
+                      <CardHeader title="UX Research Project" subtitle="Redesigned Whatsapp"
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
                           January	2015	-	March	2015. Installation of a quality management system according to ISO 9001 for the subsidiary in Shenzhen.

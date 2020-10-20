@@ -40,8 +40,8 @@ class HeaderComponent extends Component {
         return (
           <div className="header-wrapper" style={{"height": this.state.height}}>
             <div className="header">
-                <h3>Sara Steiert</h3>
-                <h6>Junior Technology Consultant</h6>
+                <h3>Gauransh Soni</h3>
+                <h6>Junior Undergraduate @ IIT Delhi </h6>
             </div>
             <div className="scroll-down-btn">
               <FloatingActionButton mini={true} backgroundColor="#A80202" onClick={this.onScrollToIntro.bind(this)}>

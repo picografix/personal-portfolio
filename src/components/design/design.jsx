@@ -10,13 +10,13 @@ class DesignComponent extends Component {
     render() {
         return (
           <div className="design">
-            <p className="headline">User Experience and Design</p>
+            <p className="headline" style={{fontSize:"16px"}}>Skills and Expertise </p>
             <p className="text-justify">
-              Through my parents business @fotolia, at the age of 13, I fell in love with Photoshop.
+              when I came to college I started photography and then shifted to Photoshop and then UI design and now I am currently working on UX Research Project.
 
-              Ever since, I tried to make everything fancy.
+              My interests in Coding let me enter the beautiful world of Machine Learning and Data Science.
 
-              Nowadays, with a user-centered mindset, I try to develop intuitive, mobile and content first applications.
+              I am curretly exploring my interest in the intersection of these two domains.
 
             </p>
 
@@ -25,7 +25,7 @@ class DesignComponent extends Component {
                   checkedIcon={<ActionFavorite />}
                   uncheckedIcon={<ActionFavoriteBorder />}
                   iconStyle={{"fill":"#A80202"}}
-                  label="UX-Consulting"
+                  label="UX-Research"
                 />
               </div>
               <div className="design-checkbox">
@@ -49,7 +49,7 @@ class DesignComponent extends Component {
                 checkedIcon={<ActionFavorite />}
                 uncheckedIcon={<ActionFavoriteBorder />}
                 iconStyle={{"fill":"#A80202"}}
-                label="Blender"
+                label="After Effects"
               />
           </div>
           <div className="design-checkbox">
@@ -57,7 +57,7 @@ class DesignComponent extends Component {
               checkedIcon={<ActionFavorite />}
               uncheckedIcon={<ActionFavoriteBorder />}
               iconStyle={{"fill":"#A80202"}}
-              label="Digital Painting"
+              label="Deep Learning"
             />
         </div>
 
