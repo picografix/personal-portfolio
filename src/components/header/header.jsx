@@ -2,9 +2,10 @@ import React, {Component} from 'react';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import ArrowIcon from 'material-ui/svg-icons/hardware/keyboard-arrow-down';
 const scrollTo = require('scroll-to');
+import Button from '@material-ui/core/Button';
 import './header.css';
 
-class HeaderComponent extends Component {
+class HeaderComponent extends Component { 
     constructor(props) {
         super(props);
         this.state = {
@@ -19,10 +20,12 @@ class HeaderComponent extends Component {
         scrollTo: window.innerHeight
       });
     }
-
+    
+  
     async componentDidMount() {
       window.addEventListener("resize", this.updateDimensions.bind(this));
       this.updateDimensions();
+      
     }
 
     componentWillUnmount() {
@@ -38,18 +41,25 @@ class HeaderComponent extends Component {
 
     render() {
         return (
+          
           <div className="header-wrapper" style={{"height": this.state.height}}>
             <div className="header">
-                <h3>Gauransh Soni</h3>
+                <h3 className="reveal-text">Gauransh Soni</h3>
                 <h6>Junior Undergraduate @ IIT Delhi </h6>
             </div>
+            
             <div className="scroll-down-btn">
               <FloatingActionButton mini={true} backgroundColor="#A80202" onClick={this.onScrollToIntro.bind(this)}>
                 <ArrowIcon />
               </FloatingActionButton>
+              <Button variant="contained" color="secondary">
+              Secondary
+              </Button>
             </div>
+            
 
           </div>
+          
         );
     }
 }

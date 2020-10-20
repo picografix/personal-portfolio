@@ -7,12 +7,13 @@ class ProgrammingComponent extends Component {
     render() {
         const style = {
             width: '100%',
+            height: '110%',
             display: 'inline-block',
             background: '#263238'
         };
         return (
             <div className="programming">
-              <p className="headline"> Programming skills</p>
+              <p className="headline" style={{fontSize:"16px"}}> Skills</p>
                 <div className="programming-console">
                     <Paper zDepth={3} style={style}>
                         <div className="console-header">
@@ -38,36 +39,36 @@ class ProgrammingComponent extends Component {
                                         <ul className="no-top-padding">
                                           <li>
                                             &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">JavaScript</span>
+                                            <span className="html-2">Python</span>
                                             &lt;/<span className="html-1">li</span>&gt;</li>
                                           <li>
                                             &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">Node.js</span>
+                                            <span className="html-2">Javascript</span>
                                             &lt;/<span className="html-1">li</span>&gt;
                                           </li>
                                           <li>
                                             &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">React</span>
+                                            <span className="html-2">C++</span>
                                             &lt;/<span className="html-1">li</span>&gt;
                                           </li>
                                           <li>
                                             &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">Angular 2</span>
+                                            <span className="html-2">Frameworks- React, Django, Flask</span>
                                             &lt;/<span className="html-1">li</span>&gt;
                                           </li>
                                           <li>
                                             &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">Mocha</span>
+                                            <span className="html-2">Adobe Photoshop</span>
                                             &lt;/<span className="html-1">li</span>&gt;
                                           </li>
                                           <li>
                                             &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">Webpack, Babel</span>
+                                            <span className="html-2">Adobe After Effects</span>
                                             &lt;/<span className="html-1">li</span>&gt;
                                           </li>
                                           <li>
                                             &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">Docker</span>
+                                            <span className="html-2">Figma</span>
                                             &lt;/<span className="html-1">li</span>&gt;
                                           </li>
                                           <li>
@@ -77,12 +78,7 @@ class ProgrammingComponent extends Component {
                                           </li>
                                           <li>
                                             &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">LESS, SASS</span>
-                                            &lt;/<span className="html-1">li</span>&gt;
-                                          </li>
-                                          <li>
-                                            &lt;<span className="html-1">li</span>&gt;
-                                            <span className="html-2">HTML5, CSS3</span>
+                                            <span className="html-2">ML Frameworks- Tensorflow, Keras</span>
                                             &lt;/<span className="html-1">li</span>&gt;
                                           </li>
                                         </ul>

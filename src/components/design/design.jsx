@@ -10,7 +10,7 @@ class DesignComponent extends Component {
     render() {
         return (
           <div className="design">
-            <p className="headline" style={{fontSize:"16px"}}>Skills and Expertise </p>
+            <p className="headline" style={{fontSize:"16px"}}>Working Domains </p>
             <p className="text-justify">
               when I came to college I started photography and then shifted to Photoshop and then UI design and now I am currently working on UX Research Project.
 
@@ -33,7 +33,7 @@ class DesignComponent extends Component {
                 checkedIcon={<ActionFavorite />}
                 uncheckedIcon={<ActionFavoriteBorder />}
                 iconStyle={{"fill":"#A80202"}}
-                label="Adobe Photoshop"
+                label="Web-Development"
               />
             </div>
             <div className="design-checkbox">
@@ -41,7 +41,7 @@ class DesignComponent extends Component {
                 checkedIcon={<ActionFavorite />}
                 uncheckedIcon={<ActionFavoriteBorder />}
                 iconStyle={{"fill":"#A80202"}}
-                label="Adobe Illustrator"
+                label="Machine Learning"
               />
             </div>
             <div className="design-checkbox">
@@ -49,18 +49,9 @@ class DesignComponent extends Component {
                 checkedIcon={<ActionFavorite />}
                 uncheckedIcon={<ActionFavoriteBorder />}
                 iconStyle={{"fill":"#A80202"}}
-                label="After Effects"
+                label="UI Design"
               />
           </div>
-          <div className="design-checkbox">
-            <Checkbox
-              checkedIcon={<ActionFavorite />}
-              uncheckedIcon={<ActionFavoriteBorder />}
-              iconStyle={{"fill":"#A80202"}}
-              label="Deep Learning"
-            />
-        </div>
-
           </div>
         );
     }

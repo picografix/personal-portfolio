@@ -12,7 +12,7 @@ class AgileComponent extends Component {
               <p className="text-justify" style={{fontSize:"16px"}}>
                 Ambivert by personality, Extrovert inside my mind. 
                 I seek opotunities which will help me build myself. 
-                I love observig my surrounding so if you found me staring at you am just observing the changes in you and your surrounding.
+                I love observing my surrounding so if you found me staring at you am just observing the changes in you and your surrounding.
                 <br /> <br/>
                 I love Pizzas  <FaPizzaSlice />
                 <br />

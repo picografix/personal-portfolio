@@ -18,13 +18,27 @@ import ContactComponent from './components/contact/contact';
 import FooterComponent from './components/footer/footer';
 
 class App extends Component {
+  // state = {
+  //   loading: true
+  // };
+
+  // componentDidMount() {
+  //   // this simulates an async action, after which the component will render the content
+  //   demoAsyncCall().then(() => this.setState({ loading: false }));
+  // }  
+  
   render() {
+    // const { loading } = this.state;
+    
+    // if(loading) { // if your component doesn't have to wait for async data, remove this block 
+    //   return null; // render null when app is not ready
+    // }
     return (
       <MuiThemeProvider>
         <div className="App">
           <BrowserDetectComponent></BrowserDetectComponent>
           <ProgressComponent></ProgressComponent>
-          <div className="section header-section">
+          <div className="section header-section" ref={el => (this.div = el)}>
             <div className="section-container header-component">
               <HeaderComponent></HeaderComponent>
             </div>
@@ -84,6 +98,10 @@ class App extends Component {
       </MuiThemeProvider>
     );
   }
+  
 }
+// function demoAsyncCall() {
+//   return new Promise((resolve) => setTimeout(() => resolve(), 2500));
+// }
 
 export default App;
