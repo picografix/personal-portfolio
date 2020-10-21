@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-deployed// import {useEffect} from 'react';
+// import {useEffect} from 'react';
 import FloatingActionButton from 'material-ui/FloatingActionButton';
 import ArrowIcon from 'material-ui/svg-icons/hardware/keyboard-arrow-down';
 const scrollTo = require('scroll-to');
@@ -51,7 +51,7 @@ class HeaderComponent extends Component {
     render() {
         return (
           <div className="header-wrapper" style={{"height": this.state.height}}>
-            <div className="header" gi>
+            <div className="header" >
                 <h3>Gauransh Soni</h3>
                 <h6>Junior Undergraduate @ IIT Delhi </h6>
                 <div className="content">
