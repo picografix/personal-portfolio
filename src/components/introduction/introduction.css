@@ -1,0 +1,11 @@
+.introduction {
+  text-align: center;
+  display: inline-block;
+}
+
+.introduction-text {
+  font-family:"Poppins";
+  font-weight: semi-bold;
+  margin-bottom: 0;
+  font-size: 20px;
+}
