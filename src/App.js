@@ -18,16 +18,33 @@ import ContactComponent from './components/contact/contact';
 import FooterComponent from './components/footer/footer';
 
 class App extends Component {
+  // componentDidMount() {
+  //   const script2 = document.createElement("script");
+  //   // 
+  //   script2.src = "https://rawgithub.com/soulwire/sketch.js/v1.0/js/sketch.min.js";
+  //   const script = document.createElement("script");
+  //   // https://rawgithub.com/soulwire/sketch.js/v1.0/js/sketch.min.js
+  //   script.src = "./sketchwala.js";
+  //   // script.async = true;
+  //   // script2.type = "module"
+  //   script.type = "module";
+  //   // script.async = true;
+  //   this.div.appendChild(script2);
+  //   this.div.appendChild(script);
+  //   }
   render() {
     return (
       <MuiThemeProvider>
         <div className="App">
           <BrowserDetectComponent></BrowserDetectComponent>
           <ProgressComponent></ProgressComponent>
-          <div className="section header-section">
-            <div className="section-container header-component">
-              <HeaderComponent></HeaderComponent>
+          <div className="section header-section " ref={el => (this.div = el)}>
+          
+            <div className="section-container header-component"  >
+              <HeaderComponent ></HeaderComponent>
             </div>
+            {/* <div id="container"></div> */}
+            
           </div>
           <div className="section colored">
             <div className="section-container">
